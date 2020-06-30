@@ -1,3 +1,4 @@
+@babel/preset-env
 altair==4.1.0
 astor==0.8.1
 attrs==19.3.0
