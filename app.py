@@ -12,7 +12,7 @@ DATA_URL = (
     "http://s3-us-west-2.amazonaws.com/streamlit-demo-data/uber-raw-data-sep14.csv.gz"
 )
 
-st.write("## Uber Pickups in New York City")
+st.write("## Regogidas de Uber en Nueva York")
 st.markdown(
 """
 Estás viendo un demo de app Streamlit que muestra sitios donde Uber ha recogido gente en Nueva York.
