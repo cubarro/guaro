@@ -35,7 +35,8 @@ def load_data(nrows):
 
 data = load_data(100000)
 
-hora = st.sidebar.number_input('Hora',0,23,11)
+# hora = st.sidebar.number_input('Hora',0,23,11)
+hora = st.sidebar.slider('Hora',0,23,11)
 data = data[data[DATE_TIME].dt.hour == hora]
 
 ' ## Mapa a las %s horas ' % hora
