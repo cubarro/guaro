@@ -15,11 +15,14 @@ DATA_URL = (
 st.write("## Uber Pickups in New York City")
 st.markdown(
 """
-This is a demo of a Streamlit app that shows the Uber pickups
-geographical distribution in New York City. Use the slider
-to pick a specific hour and look at how the charts change.
-[See source code](https://github.com/streamlit/demo-uber-nyc-pickups/blob/master/app.py)
-""")
+Estás viendo un demo de app Streamlit que muestra sitios donde Uber ha recogido gente en Nueva York.
+Se usa el deslizador (slider) para seleccionar la hora del día 
+específica y *observe como cambia el mapa*.
+
+[Código fuente de este documento](https://github.com/cubarro/guaro/blob/master/app.py)
+
+[Aquí está el cófigo original](https://github.com/streamlit/demo-uber-nyc-pickups/blob/master/app.py)
+""", unsafe_allow_html=True)
 
 @st.cache
 def load_data(nrows):
